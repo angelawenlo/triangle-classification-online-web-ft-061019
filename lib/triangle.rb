@@ -9,6 +9,7 @@ class Triangle
   end
 
   def kind
+    binding.pry
   end
 
   class TriangleError < StandardError
